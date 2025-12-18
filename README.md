@@ -33,3 +33,23 @@ alertx-lms-notifier/
 ├── lms_latest.json
 ├── lms_features.csv
 
+## ▶️ How to Run
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/DikshaaSaraswat/automated-lms-notifier.git
+
+
+2. **Install dependencies:**
+
+bash
+Copy code
+pip install -r requirements.txt
+
+
+3. **Run AlertX:**
+
+bash
+Copy code
+python alertx.py
