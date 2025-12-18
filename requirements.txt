@@ -1,0 +1,7 @@
+requests
+urllib3
+beautifulsoup4
+python-dateutil
+plyer
+pandas
+scikit-learn
