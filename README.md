@@ -43,13 +43,35 @@ git clone https://github.com/DikshaaSaraswat/automated-lms-notifier.git
 
 2. **Install dependencies:**
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
 
 
 3. **Run AlertX:**
 
-bash
-Copy code
+```bash
 python alertx.py
+
+
+## 🔐 Security Note
+
+User credentials are taken securely at runtime using input prompts and are **not stored** anywhere in the code or files.
+
+
+## 📊 Machine Learning Details
+
+- **Model:** Random Forest Classifier  
+- **Train-test split:** 80/20  
+- **Features used:** time left, days left, activity type, due-date availability  
+- **Output:** submission risk probability for each task
+
+## 🎯 Use Case
+
+AlertX helps students manage academic workload efficiently by predicting which assignments are most at risk of late submission and notifying them in advance.
+
+
+## 👩‍💻 Author
+
+**Diksha Saraswat**  
+B.Tech CSE Student | AI/ML & Python Enthusiast
+
