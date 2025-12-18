@@ -26,4 +26,10 @@ notifications to help students never miss a deadline.
 ---
 
 ## 📂 Project Structure
+alertx-lms-notifier/
+│
+├── alertx.py
+├── requirements.txt
+├── lms_latest.json
+├── lms_features.csv
 
